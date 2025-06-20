@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: integration-test-app
+  name: integration-test-app11
   namespace: my-namespace
   labels:
     app.armada.ai/role: frontend
     app.armada.ai/type: marketplace-apps
-    app.armada.ai/name: "integration-test-app"
+    app.armada.ai/name: "integration-test-app11"
     app.kubernetes.io/instance: f5587ce3-ccce-4915-b589-7f1d491ddaf1
 spec:
   selector:
